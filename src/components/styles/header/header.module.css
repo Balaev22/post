@@ -1,0 +1,16 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 60px;
+  border-bottom: 1px solid lightgrey;
+}
+.header .btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  height: 60px;
+}/*# sourceMappingURL=header.module.css.map */

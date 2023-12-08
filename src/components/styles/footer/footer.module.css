@@ -1,0 +1,38 @@
+.footer {
+  width: 100%;
+  height: 60px;
+  padding: 0 5%;
+  background: rgb(57, 62, 70);
+  color: lightgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer span {
+  font-weight: 600;
+}
+.footer .contact {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .contact a {
+  color: lightgrey;
+  font-size: 22px;
+  transition: color 0.2s;
+}
+.footer .contact a:hover {
+  color: #ca3e47;
+}
+
+@media screen and (max-width: 450px) {
+  .footer .contact {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .footer .contact a {
+    margin: 0 12px;
+  }
+}/*# sourceMappingURL=footer.module.css.map */

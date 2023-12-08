@@ -1,0 +1,11 @@
+.post{
+    width: 500px;
+    min-height: calc(100vh - 120px);
+}
+
+@media screen and (max-width: 550px){
+    .post{
+        width: 95%;
+    }
+    
+}
